@@ -1,1 +1,1 @@
-# DS506-HW5-california-coronavirus-data
+# DS506-HW5-CovidDataVisual
