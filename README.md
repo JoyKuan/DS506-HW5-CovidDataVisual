@@ -39,7 +39,7 @@ git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
   <img width="1450" alt="Screen Shot 2020-11-04 at 19 21 39" src="https://user-images.githubusercontent.com/54604816/98193946-25709500-1ed3-11eb-929d-93bf5b9b973f.png">
 
 ### Step 3. Run the python script on a Bokeh server
-To run a Bokeh application on a Bokeh server from a single Python script (covid_data_visual.py), pass the script name to `<bokeh serve>`on the command line:
+To run a Bokeh application on a Bokeh server from a single Python script (covid_data_visual.py), pass the script name to `<bokeh serve>` on the command line:
 ```bash
 bokeh serve --show covid_data_visual.py 
 ```
@@ -49,6 +49,15 @@ bokeh serve --show covid_data_visual.py
 
 
 # How to release the dashboard visualization through a Docker container
+### Step 1. Install [Docker Destop](https://www.docker.com/products/docker-desktop) on your computer which using MacOS
+About how to install Docker Desktop on Mac, you can refer this link: https://docs.docker.com/docker-for-mac/install/
+After you’ve successfully installed Docker Desktop, open a terminal and run `<docker --version>` to check the version of Docker installed on your machine.
+Test that your installation works by running the hello-world Docker image through this comman:
+```bash
+docker run hello-world
+```
+and you will see this result which means you already install Docker successfually.
+<img width="726" alt="Screen Shot 2020-11-04 at 20 07 03" src="https://user-images.githubusercontent.com/54604816/98196639-800cef80-1ed9-11eb-9df0-a88ca46a9938.png">
 
 
 
