@@ -41,10 +41,11 @@ To run a Bokeh application on a Bokeh server from a single Python script (covid_
 bokeh serve --show covid_data_visual.py 
 ```
 -- show: It will raise a browser to the correct location for you and you will see the dashboard visualizations.
+
 <img width="850" alt="Screen Shot 2020-11-04 at 19 44 27" src="https://user-images.githubusercontent.com/54604816/98195293-3b338980-1ed6-11eb-9e66-968e67cd2fd0.png">
 
 
-# How to release the visualization through a Docker container
+# How to release the dashboard visualization through a Docker container
 
 
 
