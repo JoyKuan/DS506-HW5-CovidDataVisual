@@ -57,7 +57,7 @@ Test that your installation works by running the hello-world Docker image throug
 ```bash
 docker run hello-world
 ```
-and you will see this result which means you already install Docker successfually.
+and you will see this result which means you already install Docker successfually. Under this command, Docker will find whether the image exists locally, but it definitely does not exist because the environment has just been installed. After that, Docker will go to the remote Docker registry server to download the image.
 <img width="726" alt="Screen Shot 2020-11-04 at 20 07 03" src="https://user-images.githubusercontent.com/54604816/98196639-800cef80-1ed9-11eb-9df0-a88ca46a9938.png">
 
 
