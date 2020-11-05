@@ -75,7 +75,7 @@ If not specified the version, the default tag is **latest**
 
 If successful, the build process should like this:
 
-<img width="1237" alt="Screen Shot 2020-11-04 at 22 58 56" src="https://user-images.githubusercontent.com/54604816/98207999-5fe92a80-1ef1-11eb-967d-90634f4bb0d3.png">
+<img width="1302" alt="Screen Shot 2020-11-05 at 01 01 34" src="https://user-images.githubusercontent.com/54604816/98219930-81064700-1f02-11eb-8c04-866b92a916d6.png">
 
 You also can use this command to see your all images you built and check whether or not there is the name of repository, **covidashboard** and its tag is 1.0.
 ```bash
