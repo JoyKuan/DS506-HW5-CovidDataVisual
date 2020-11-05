@@ -83,7 +83,7 @@ docker images
 ```
 <img width="835" alt="Screen Shot 2020-11-04 at 23 11 18" src="https://user-images.githubusercontent.com/54604816/98208993-13065380-1ef3-11eb-87fe-e33a8c6c0e1c.png">
 
-### Step 6: Run the image as a container
+### Step 6. Run the image as a container
 Start a container based on your image, **covidashboard:1.0** by using the following command:
 ```bash
 docker run -p 5006:5006 -it covidashboard:1.0
