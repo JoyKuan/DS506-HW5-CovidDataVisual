@@ -50,7 +50,7 @@ bokeh serve --show covid_data_visual.py
 
 # How to release the dashboard visualization through a Docker container with a view of the dashboard from a local machine
 If you are already in virtual environment, please deactivate your venv by typing `deactivate` in your shell.
-### Step 4. Install [Docker Destop](https://www.docker.com/products/docker-desktop) on your computer which using MacOS
+### Step 4. Install [Docker Destop](https://www.docker.com/products/docker-desktop) (choose stable version) on your computer which using MacOS
 About how to install Docker Desktop on Mac, you can refer this link: https://docs.docker.com/docker-for-mac/install/
 
 After you’ve successfully installed Docker Desktop and the docker daemon is running, open a terminal and run `docker --version` to check the version of Docker installed on your machine.
