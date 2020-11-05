@@ -14,7 +14,7 @@ git clone https://github.com/JoyKuan/DS560-HW5-CovidDataVisual.git
 
 * **Create a new environment on your machine**
   
-  If you want to create a virtual environment, changing your current working directory by using "cd" command into DS560-HW5-CovidDataVisual you cloned from step   1, and then install virtualenv first. (If you already have virtualenv, just skip creating virtualenv step.)
+  If you want to create a virtual environment, changing your current working directory by using "cd" command into DS560-HW5-CovidDataVisual you cloned from step   1, and then install virtualenv first. 
   ```bash
   pip install virtualenv
   ```
