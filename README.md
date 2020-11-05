@@ -53,7 +53,7 @@ If you are already in virtual environment, please deactivate your venv by typing
 ### Step 4. Install [Docker Destop](https://www.docker.com/products/docker-desktop) on your computer which using MacOS
 About how to install Docker Desktop on Mac, you can refer this link: https://docs.docker.com/docker-for-mac/install/
 
-After you’ve successfully installed Docker Desktop, open a terminal and run `docker --version` to check the version of Docker installed on your machine.
+After you’ve successfully installed Docker Desktop , open a terminal and run `docker --version` to check the version of Docker installed on your machine.
 Test that your installation works by running the hello-world Docker image through this comman:
 ```bash
 docker run hello-world
