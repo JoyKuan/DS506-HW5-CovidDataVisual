@@ -90,7 +90,9 @@ docker run -p 5006:5006 -it covidashboard:1.0
 ```
 
 **-p 5006:5006** - map port 5006 of the host to port 5006 in the container
+
 **-it** - is short for --interactive + --tty when you docker run with this command, it would take you straight inside of the container
+
 **covidashboard:1.0** - the image to use
 
 Once your container works correctly, open the port below, when using Bokeh serve the ports are displayed in the console. 
