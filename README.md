@@ -65,7 +65,7 @@ and you will see this result which means you already install Docker successfuall
 ### Step 5. Change your current working dictionary to the repository you already cloned from step 1 
 Make sure you are in the directory **DS506-HW5-CovidDataVisual** in a terminal using the cd command. 
 
-### Step 6: Build the image
+### Step 6. Build the image
 The repository(DS506-HW5-CovidDataVisual) already has a Dockerfile, a python script (covid_data_visual.py) and two csv files, then you can build your first image, and make sure the containers launched from it work as expected. Run the following command to build your **covidashboard** image with the version 1.0:
 ```bash
 docker build --tag covidashboard:1.0 .
@@ -83,7 +83,7 @@ docker images
 ```
 <img width="835" alt="Screen Shot 2020-11-04 at 23 11 18" src="https://user-images.githubusercontent.com/54604816/98208993-13065380-1ef3-11eb-87fe-e33a8c6c0e1c.png">
 
-### Step 6. Run the image as a container
+### Step 7. Run the image as a container
 Start a container based on your image, **covidashboard:1.0** by using the following command:
 ```bash
 docker run -p 5006:5006 -it covidashboard:1.0
