@@ -5,7 +5,7 @@ Using California Coronavirus Data with Bokeh for dashboard visualizations and re
 #### Operating system: MacOS Catalina v10.15
 
 # How to install and run your visualization with Bokeh
-## Step 1. Clone DS560-HW5-CovidDataVisual into a directory using ```bash git clone <url>```
+## Step 1. Clone DS560-HW5-CovidDataVisual into a directory using ```git clone <url>```
 ```bash
 git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
 ```
@@ -36,7 +36,7 @@ If you install the dependencies on your virtual environment successfully, you wi
 <img width="1450" alt="Screen Shot 2020-11-04 at 19 21 39" src="https://user-images.githubusercontent.com/54604816/98193946-25709500-1ed3-11eb-929d-93bf5b9b973f.png">
 
 ## Step 3. Run the python script using 
-To run a Bokeh application on a Bokeh server from a single Python script (covid_data_visual.py), pass the script name to ```bash bokeh serve``` on the command line:
+To run a Bokeh application on a Bokeh server from a single Python script (covid_data_visual.py), pass the script name to ```bokeh serve``` on the command line:
 ```bash
 bokeh serve --show covid_data_visual.py 
 ```
