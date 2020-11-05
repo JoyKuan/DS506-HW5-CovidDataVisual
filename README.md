@@ -60,7 +60,7 @@ docker run hello-world
 ```
 and you will see this result which means you already install Docker successfually. Under this command, Docker will find whether the image exists locally, but it definitely does not exist because the environment has just been installed. After that, Docker will go to the remote Docker registry server to download the image.
 
-<img width="833" alt="Screen Shot 2020-11-05 at 00 53 55" src="https://user-images.githubusercontent.com/54604816/98219082-6b445200-1f01-11eb-8810-0009014be210.png">
+<img width="745" alt="Screen Shot 2020-11-05 at 00 58 41" src="https://user-images.githubusercontent.com/54604816/98219660-2836ae80-1f02-11eb-8a21-1fe25433e0df.png">
 
 ### Step 5. Change your current working dictionary to the repository you already cloned from step 1 
 Make sure you are in the directory **DS560-HW5-CovidDataVisual** in a terminal using the cd command. 
