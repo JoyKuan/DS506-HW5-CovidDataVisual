@@ -45,7 +45,7 @@ bokeh serve --show covid_data_visual.py
 ```
 **-- show**: It will raise a browser to the correct location for you and you will see the dashboard visualizations.
 
-<img width="850" alt="Screen Shot 2020-11-04 at 19 44 27" src="https://user-images.githubusercontent.com/54604816/98195293-3b338980-1ed6-11eb-9e66-968e67cd2fd0.png">
+<img width="1299" alt="Screen Shot 2020-11-05 at 00 47 42" src="https://user-images.githubusercontent.com/54604816/98218376-8cf10980-1f00-11eb-8774-44e88510e957.png">
 
 
 # How to release the dashboard visualization through a Docker container with a view of the dashboard from a local machine
