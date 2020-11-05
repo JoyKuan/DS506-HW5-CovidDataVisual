@@ -81,7 +81,7 @@ You also can use this command to see your all images you built and check whether
 ```bash
 docker images
 ```
-<img width="835" alt="Screen Shot 2020-11-04 at 23 11 18" src="https://user-images.githubusercontent.com/54604816/98208993-13065380-1ef3-11eb-87fe-e33a8c6c0e1c.png">
+<img width="838" alt="Screen Shot 2020-11-05 at 01 06 47" src="https://user-images.githubusercontent.com/54604816/98220485-389b5900-1f03-11eb-8f76-a79f963da1d0.png">
 
 ### Step 7. Run the image as a container
 Start a container based on your image, **covidashboard:1.0**, by using the following command:
