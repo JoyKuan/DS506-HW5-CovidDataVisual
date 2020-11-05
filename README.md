@@ -43,7 +43,7 @@ To run a Bokeh application on a Bokeh server from a single Python script (covid_
 ```bash
 bokeh serve --show covid_data_visual.py 
 ```
--- show: It will raise a browser to the correct location for you and you will see the dashboard visualizations.
+**-- show**: It will raise a browser to the correct location for you and you will see the dashboard visualizations.
 
 <img width="850" alt="Screen Shot 2020-11-04 at 19 44 27" src="https://user-images.githubusercontent.com/54604816/98195293-3b338980-1ed6-11eb-9e66-968e67cd2fd0.png">
 
@@ -70,7 +70,7 @@ The repository(DS506-HW5-CovidDataVisual) already has a Dockerfile, a python scr
 ```bash
 docker build --tag covidashboard:1.0 .
 ```
-+ --tag: The parameter is used to specify the name of the image file
+**--tag**: The parameter is used to specify the name of the image file
 If not specified the version, the default tag is **latest**
 
 If successful, the build process should like this:
@@ -89,9 +89,9 @@ Start a container based on your image, **covidashboard:1.0** by using the follow
 docker run -p 5006:5006 -it covidashboard:1.0
 ```
 
-+ -p 5006:5006 - map port 5006 of the host to port 5006 in the container
-+ -it - is short for --interactive + --tty when you docker run with this command, it would take you straight inside of the container
-+ covidashboard:1.0 - the image to use
+**-p 5006:5006** - map port 5006 of the host to port 5006 in the container
+**-it** - is short for --interactive + --tty when you docker run with this command, it would take you straight inside of the container
+**covidashboard:1.0** - the image to use
 
 Once your container works correctly, open the port below, when using Bokeh serve the ports are displayed in the console. 
 http://localhost:5006/covid_data_visual
