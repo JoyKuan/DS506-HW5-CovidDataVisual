@@ -70,7 +70,7 @@ The repository, **DS560-HW5-CovidDataVisual**, already has a Dockerfile, a pytho
 ```bash
 docker build --tag covidashboard:1.0 .
 ```
-**--tag**: The parameter is used to specify the name of the image file
+**--tag**: The parameter is used to specify the name of the image file.
 If not specified the version, the default tag is **latest**
 
 If successful, the build process should like this:
