@@ -73,7 +73,7 @@ docker build --tag covidashboard:1.0 .
 **--tag**: The parameter is used to specify the name of the image file.
 If not specified the version, the default tag is **latest**
 
-If successful, the build process should like this:
+It will take some time for the first time, and if successful, the build process should like this:
 
 <img width="1302" alt="Screen Shot 2020-11-05 at 01 01 34" src="https://user-images.githubusercontent.com/54604816/98219930-81064700-1f02-11eb-8c04-866b92a916d6.png">
 
