@@ -1,4 +1,4 @@
-# DS506-HW5-CovidDataVisual
+# DS560-HW5-CovidDataVisual
 Using California Coronavirus Data with Bokeh for dashboard visualizations and releasing these visualizations through a Docker container.
 
 #### Author: Kuan-Hui Lin
@@ -8,7 +8,7 @@ Using California Coronavirus Data with Bokeh for dashboard visualizations and re
 # How to install and run your visualization with Bokeh
 ### Step 1. Clone "DS560-HW5-CovidDataVisual" into a directory using `git clone <url>`
 ```bash
-git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
+git clone https://github.com/JoyKuan/DS560-HW5-CovidDataVisual.git
 ```
 ### Step 2. Create a new environment on your machine and install the dependencies necessary for running the Bokeh dashboard
 
