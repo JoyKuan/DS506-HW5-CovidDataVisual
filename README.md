@@ -27,7 +27,7 @@ git clone https://github.com/JoyKuan/DS560-HW5-CovidDataVisual.git
   source dsci560H5/bin/activate
   ```
   and you will see 
-  <img width="730" alt="Screen Shot 2020-11-04 at 19 16 22" src="https://user-images.githubusercontent.com/54604816/98195782-68cd0280-1ed7-11eb-8b14-19c10b9bd21d.png">
+  <img width="1298" alt="Screen Shot 2020-11-05 at 00 44 04" src="https://user-images.githubusercontent.com/54604816/98217962-0e946780-1f00-11eb-949c-29e09d05583b.png">
 
 * **Install the dependencies**
   
