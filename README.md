@@ -14,7 +14,7 @@ git clone https://github.com/JoyKuan/DS560-HW5-CovidDataVisual.git
 
 * **Create a new environment on your machine**
   
-  If you want to create a virtual environment, changing your current working directory by using "cd" command into DS506-HW5-CovidDataVisual you cloned from step   1, and then install virtualenv first. (If you already have virtualenv, just skip creating virtualenv step.)
+  If you want to create a virtual environment, changing your current working directory by using "cd" command into DS560-HW5-CovidDataVisual you cloned from step   1, and then install virtualenv first. (If you already have virtualenv, just skip creating virtualenv step.)
   ```bash
   pip install virtualenv
   ```
@@ -63,10 +63,10 @@ and you will see this result which means you already install Docker successfuall
 <img width="726" alt="Screen Shot 2020-11-04 at 20 07 03" src="https://user-images.githubusercontent.com/54604816/98196639-800cef80-1ed9-11eb-9df0-a88ca46a9938.png">
 
 ### Step 5. Change your current working dictionary to the repository you already cloned from step 1 
-Make sure you are in the directory **DS506-HW5-CovidDataVisual** in a terminal using the cd command. 
+Make sure you are in the directory **DS560-HW5-CovidDataVisual** in a terminal using the cd command. 
 
 ### Step 6. Build the image
-The repository, **DS506-HW5-CovidDataVisual**, already has a Dockerfile, a python script (covid_data_visual.py) and two csv files, then you can build your first image, and make sure the containers launched from it work as expected. Run the following command to build your **covidashboard** image with the version 1.0:
+The repository, **DS560-HW5-CovidDataVisual**, already has a Dockerfile, a python script (covid_data_visual.py) and two csv files, then you can build your first image, and make sure the containers launched from it work as expected. Run the following command to build your **covidashboard** image with the version 1.0:
 ```bash
 docker build --tag covidashboard:1.0 .
 ```
