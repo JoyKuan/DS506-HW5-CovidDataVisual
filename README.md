@@ -12,7 +12,7 @@ git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
 ```
 ### Step 2. Create a new environment on your machine and install the dependencies necessary for running the Bokeh dashboard
 
-* Create a new environment on your machine
+* **Create a new environment on your machine**
   If you want to create a virtual environment, changing your current working directory by using "cd" command into DS506-HW5-CovidDataVisual you cloned from step   1, and then install virtualenv first. (If you already have virtualenv, just skip creating virtualenv step.)
   ```bash
   pip install virtualenv
@@ -28,7 +28,7 @@ git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
   and you will see 
   <img width="730" alt="Screen Shot 2020-11-04 at 19 16 22" src="https://user-images.githubusercontent.com/54604816/98193518-42f12f00-1ed2-11eb-838c-   42f53e5832a8.png">
 
-* Install the dependencies
+* **Install the dependencies**
   Install the dependencies which are included in requirements.txt before executing the python script:
   ```bash
   pip install -r requirements.txt
@@ -36,7 +36,7 @@ git clone https://github.com/JoyKuan/DS506-HW5-CovidDataVisual.git
   If you install the dependencies on your virtual environment successfully, you will see 
   <img width="1450" alt="Screen Shot 2020-11-04 at 19 21 39" src="https://user-images.githubusercontent.com/54604816/98193946-25709500-1ed3-11eb-929d-93bf5b9b973f.png">
 
-### Step 3. Run the python script using 
+### Step 3. Run the python script on a Bokeh server
 To run a Bokeh application on a Bokeh server from a single Python script (covid_data_visual.py), pass the script name to `<bokeh serve>`on the command line:
 ```bash
 bokeh serve --show covid_data_visual.py 
