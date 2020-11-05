@@ -66,7 +66,7 @@ and you will see this result which means you already install Docker successfuall
 Make sure you are in the directory **DS506-HW5-CovidDataVisual** in a terminal using the cd command. 
 
 ### Step 6. Build the image
-The repository(DS506-HW5-CovidDataVisual) already has a Dockerfile, a python script (covid_data_visual.py) and two csv files, then you can build your first image, and make sure the containers launched from it work as expected. Run the following command to build your **covidashboard** image with the version 1.0:
+The repository, **DS506-HW5-CovidDataVisual**, already has a Dockerfile, a python script (covid_data_visual.py) and two csv files, then you can build your first image, and make sure the containers launched from it work as expected. Run the following command to build your **covidashboard** image with the version 1.0:
 ```bash
 docker build --tag covidashboard:1.0 .
 ```
