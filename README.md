@@ -99,7 +99,7 @@ Once your container works correctly, open the port below, when using Bokeh serve
 http://localhost:5006/covid_data_visual
 
 Some screenshots of the final result:
-<img width="798" alt="Screen Shot 2020-11-04 at 23 33 39" src="https://user-images.githubusercontent.com/54604816/98210994-4696ad00-1ef6-11eb-945d-7765f401d50a.png">
+<img width="824" alt="Screen Shot 2020-11-05 at 01 08 20" src="https://user-images.githubusercontent.com/54604816/98220652-76987d00-1f03-11eb-9861-9bb9f706158a.png">
 ![Screen Shot 2020-11-04 at 23 35 58](https://user-images.githubusercontent.com/54604816/98211299-b0af5200-1ef6-11eb-8d83-bc385c735473.png)
 
 
